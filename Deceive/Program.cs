@@ -35,7 +35,8 @@ namespace Deceive
             if (Utils.IsLCURunning())
             {
                 var result = MessageBox.Show(
-                    "League is currently running. In order to mask your online status, League needs to be started by Deceive. Do you want Deceive to stop League, so that it can restart it with the proper configuration?",
+                    "League is currently running. In order to mask your online status, League needs to be started by Deceive.", 
+                    "Do you want Deceive to stop League, so that it can restart it with the proper configuration?",
                     "Deceive",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question,
